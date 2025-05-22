@@ -15,8 +15,8 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
-  - A
   - S
+  - A
   - D
   - F
   - G
