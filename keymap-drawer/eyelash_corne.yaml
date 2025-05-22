@@ -220,9 +220,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:progress-download$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
+  - '&mkp C_PREV'
+  - '&mkp C_PP'
+  - '&mkp C_NEXT'
   - PRINTSCREEN
   - '&lang_switch'
   - {t: '$$mdi:transfer$$', type: trans}
