@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-option$$
   - '&td0'
   - A
   - S
@@ -48,56 +48,56 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - SYMBOL
-  - $$mdi:apple-keyboard-option$$
-  DVORAK:
-  - $$mdi:keyboard-tab$$
-  - {t: '''', s: '"'}
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - P
-  - Y
-  - $$mdi:arrow-up-bold$$
-  - F
-  - G
-  - C
-  - R
-  - L
   - {t: '$$mdi:backspace$$', type: backspace}
+  COLEMAK:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - $$mdi:arrow-up-bold$$
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
+  - $$mdi:apple-keyboard-option$$
   - '&td0'
   - A
-  - O
-  - E
-  - U
-  - I
+  - R
+  - S
+  - T
+  - D
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - D
   - H
-  - T
   - N
-  - S
+  - E
+  - I
+  - O
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-control$$
-  - {t: ;, s: ':'}
-  - Q
-  - J
-  - K
+  - Z
   - X
+  - C
+  - V
+  - B
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - B
+  - K
   - M
-  - W
-  - V
-  - Z
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - SYMBOL
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -157,9 +157,9 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
-  - '*'
   - (
   - )
+  - '*'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
@@ -211,7 +211,7 @@ layers:
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DVORAK, h: toggle}
+  - {t: COLEMAK, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
