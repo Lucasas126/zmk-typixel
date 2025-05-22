@@ -72,26 +72,40 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp RALT
 &td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LGUI  &mo 2  &lt 4 SPACE                                               &lt 4 ENTER  &mo 3  &kp RALT
+                         &kp LGUI  &mo 2  &lt 4 SPACE                                               &lt 4 ENTER  &mo 3  &kp BSPC
             >;
 
              sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>; 
         };    
 
         layer_1 {
-            display-name = "DVORAK";
+            display-name = "COLEMAK";
             bindings = <
-&kp TAB    &kp SQT  &kp COMMA  &kp DOT  &kp P  &kp Y                         &kp UP               &kp F  &kp G  &kp C     &kp R     &kp L     &kp BSPC
-&td0       &kp A    &kp O      &kp E    &kp U  &kp I              &kp LEFT  &kp ENTER &kp RIGHT  &kp D  &kp H  &kp T     &kp N     &kp S     &kp MINUS
-&kp LCTRL  &kp SEMI &kp Q      &kp J    &kp K  &kp X     &kp SPACE         &kp DOWN             &kp B  &kp M  &kp W     &kp V     &kp Z     &kp ESC
-                        &kp LGUI  &mo 2  &lt 4 SPACE                                         &lt 4 ENTER  &mo 3  &kp RALT
+&kp TAB    &kp Q  &kp W  &kp F  &kp P  &kp G                         &kp UP               &kp J  &kp L  &kp U     &kp Y     &kp SEMI     &kp RALT
+&td0       &kp A    &kp R      &kp S    &kp T  &kp D              &kp LEFT  &kp ENTER &kp RIGHT  &kp H  &kp N  &kp E     &kp I     &kp O     &kp MINUS
+&kp LCTRL  &kp Z &kp X      &kp C    &kp V  &kp B     &kp SPACE         &kp DOWN             &kp K  &kp M  &kp COMMA     &kp DOT     &kp FSLH     &kp ESC
+                        &kp LGUI  &mo 2  &lt 4 SPACE                                         &lt 4 ENTER  &mo 3  &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
+
+        /*
+        layer_1 {
+            display-name = "DVORAK";
+            bindings = <
+&kp TAB    &kp SQT  &kp COMMA  &kp DOT  &kp P  &kp Y                         &kp UP               &kp F  &kp G  &kp C     &kp R     &kp L     &kp RALT
+&td0       &kp A    &kp O      &kp E    &kp U  &kp I              &kp LEFT  &kp ENTER &kp RIGHT  &kp D  &kp H  &kp T     &kp N     &kp S     &kp MINUS
+&kp LCTRL  &kp SEMI &kp Q      &kp J    &kp K  &kp X     &kp SPACE         &kp DOWN             &kp B  &kp M  &kp W     &kp V     &kp Z     &kp ESC
+                        &kp LGUI  &mo 2  &lt 4 SPACE                                         &lt 4 ENTER  &mo 3  &kp BSPC
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+        */
 
         lower_layer {
             display-name = "NUMBER";
@@ -108,7 +122,7 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp LPAR   &kp RPAR  &kp ASTRK  &kp BSPC
 &trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
