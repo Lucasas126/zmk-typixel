@@ -49,7 +49,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - SYMBOL
   - {t: '$$mdi:backspace$$', type: backspace}
-  MAC QWERTY:
+  MAC_QWERTY:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -94,8 +94,8 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn MAC}
-  - {t: '$$mdi:keyboard-return$$', h: Fn MAC}
+  - {t: '$$mdi:keyboard-space$$', h: FN_MAC}
+  - {t: '$$mdi:keyboard-return$$', h: FN_MAC}
   - SYMBOL
   - {t: '$$mdi:backspace$$', type: backspace}
   CMK:
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - SYMBOL
   - {t: '$$mdi:backspace$$', type: backspace}
-  MAC CMK:
+  MAC_CMK:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -192,9 +192,9 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn MAC}
-  - {t: '$$mdi:keyboard-return$$', h: Fn MAC}
-  - Fn
+  - {t: '$$mdi:keyboard-space$$', h: FN_MAC}
+  - {t: '$$mdi:keyboard-return$$', h: FN_MAC}
+  - SYMBOL
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -308,7 +308,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: MAC QWERTY, h: toggle}
+  - {t: MAC_QWERTY, h: toggle}
   - {t: CMK, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -341,9 +341,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held alternate}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn MAC:
+  - {t: '$$mdi:transfer$$', type: trans}
+  FN_MAC:
   - '&studio_unlock'
   - F1
   - F2
@@ -358,7 +358,7 @@ layers:
   - F10
   - F11
   - {t: QWERTY, h: toggle}
-  - {t: MAC CMK, h: toggle}
+  - {t: MAC_CMK, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
