@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - CMK
+  - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - MAC CMK
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - SYMBOL
   - {t: '$$mdi:backspace$$', type: backspace}
   MAC QWERTY:
   - $$mdi:keyboard-tab$$
@@ -93,10 +93,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
-  - CMK
+  - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn MAC}
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - MAC CMK
+  - {t: '$$mdi:keyboard-return$$', h: Fn MAC}
+  - SYMBOL
   - {t: '$$mdi:backspace$$', type: backspace}
   CMK:
   - $$mdi:keyboard-tab$$
@@ -142,10 +142,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - {t: CMK, type: held}
+  - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - MAC CMK
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - SYMBOL
   - {t: '$$mdi:backspace$$', type: backspace}
   MAC CMK:
   - $$mdi:keyboard-tab$$
@@ -191,10 +191,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
-  - {t: CMK, type: held alternate}
+  - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn MAC}
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - {t: MAC CMK, type: held}
+  - {t: '$$mdi:keyboard-return$$', h: Fn MAC}
+  - Fn MAC
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -240,10 +240,10 @@ layers:
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: INS, type: held}
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - INS
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -292,7 +292,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
@@ -338,9 +338,9 @@ layers:
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn MAC:
@@ -387,8 +387,8 @@ layers:
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held alternate}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
