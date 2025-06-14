@@ -122,7 +122,7 @@
 &kp TAB    &kp Q  &kp W  &kp F  &kp P  &kp G                         &kp UP               &kp J  &kp L  &kp U     &kp Y     &kp SEMI     &kp RALT
 &td0       &kp A    &kp R      &kp S    &kp T  &kp D              &kp LEFT  &kp ENTER &kp RIGHT  &kp H  &kp N  &kp E     &kp I     &kp O     &kp MINUS
 &kp LGUI  &kp Z &kp X      &kp C    &kp V  &kp B     &kp SPACE         &kp DOWN             &kp K  &kp M  &kp COMMA     &kp DOT     &kp FSLH     &kp ESC
-                        &kp LCTRL  &mo 4  &lt 7 SPACE                                         &lt 7 ENTER  &mo 7  &kp BSPC
+                        &kp LCTRL  &mo 4  &lt 7 SPACE                                         &lt 7 ENTER  &mo 6  &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -156,7 +156,7 @@
             display-name = "Fn";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&to 1          &tog 3      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp C_PREV  &kp C_PP    &kp C_NEXT   &kp PRINTSCREEN  &lang_switch
+&to 1          &tog 2      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp C_PREV  &kp C_PP    &kp C_NEXT   &kp PRINTSCREEN  &lang_switch
 &trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                        &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
@@ -168,7 +168,7 @@
             display-name = "Fn MAC";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&to 0          &tog 4      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp C_PREV  &kp C_PP    &kp C_NEXT   &kp PRINTSCREEN  &lang_switch_mac
+&to 0          &tog 3      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp C_PREV  &kp C_PP    &kp C_NEXT   &kp PRINTSCREEN  &lang_switch_mac
 &trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                        &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
