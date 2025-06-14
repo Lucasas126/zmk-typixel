@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
-  - COLEMAK
+  - CMK
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - MAC COLEMAK
+  - MAC CMK
   - {t: '$$mdi:backspace$$', type: backspace}
   MAC QWERTY:
   - $$mdi:keyboard-tab$$
@@ -93,12 +93,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - COLEMAK
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - CMK
+  - {t: '$$mdi:keyboard-space$$', h: Fn MAC}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - MAC COLEMAK
+  - MAC CMK
   - {t: '$$mdi:backspace$$', type: backspace}
-  COLEMAK:
+  CMK:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -142,12 +142,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - {t: COLEMAK, type: held}
+  - {t: CMK, type: held}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - MAC COLEMAK
+  - MAC CMK
   - {t: '$$mdi:backspace$$', type: backspace}
-  MAC COLEMAK:
+  MAC CMK:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -191,10 +191,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
-  - {t: COLEMAK, type: held alternate}
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: CMK, type: held alternate}
+  - {t: '$$mdi:keyboard-space$$', h: Fn MAC}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - {t: MAC COLEMAK, type: held}
+  - {t: MAC CMK, type: held}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -308,7 +308,56 @@ layers:
   - F9
   - F10
   - F11
-  - '0'
+  - {t: MAC QWERTY, h: toggle}
+  - {t: MAC CMK, h: toggle}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - '&mkp MB4'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:progress-download$$
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
+  - PRINTSCREEN
+  - '&lang_switch'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB5'
+  - $$mdi:volume-off$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - SCROLLLOCK
+  - PAUSE BREAK
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  Fn MAC:
+  - '&studio_unlock'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: QWERTY, h: toggle}
   - {t: NUMBER, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
