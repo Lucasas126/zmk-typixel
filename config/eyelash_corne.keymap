@@ -43,7 +43,7 @@
                 &macro_release &kp LGUI
             >;
         };
-        lang_switch_mac: lang_switch {            
+        lang_switch_mac: lang_switch_mac {            
             compatible = "zmk,behavior-macro";#binding-cells = <0>;            
             wait-ms = <10>;            
             tap-ms = <10>;            
@@ -117,7 +117,7 @@
         };
 
         COLEMAK_MAC {
-            display-name = "COLEMAK";
+            display-name = "MAC COLEMAK";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F  &kp P  &kp G                         &kp UP               &kp J  &kp L  &kp U     &kp Y     &kp SEMI     &kp RALT
 &td0       &kp A    &kp R      &kp S    &kp T  &kp D              &kp LEFT  &kp ENTER &kp RIGHT  &kp H  &kp N  &kp E     &kp I     &kp O     &kp MINUS
