@@ -93,7 +93,7 @@
         };    
 
         QWERTY_MAC {
-            display-name = "MAC QWERTY";
+            display-name = "MAC_QWERTY";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp RALT
 &td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp RIGHT_SHIFT
@@ -117,12 +117,12 @@
         };
 
         COLEMAK_MAC {
-            display-name = "MAC CMK";
+            display-name = "MAC_CMK";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F  &kp P  &kp G                         &kp UP               &kp J  &kp L  &kp U     &kp Y     &kp SEMI     &kp RALT
 &td0       &kp A    &kp R      &kp S    &kp T  &kp D              &kp LEFT  &kp ENTER &kp RIGHT  &kp H  &kp N  &kp E     &kp I     &kp O     &kp MINUS
 &kp LGUI  &kp Z &kp X      &kp C    &kp V  &kp B     &kp SPACE         &kp DOWN             &kp K  &kp M  &kp COMMA     &kp DOT     &kp FSLH     &kp ESC
-                        &kp LCTRL  &mo 4  &lt 7 SPACE                                         &lt 7 ENTER  &mo 6  &kp BSPC
+                        &kp LCTRL  &mo 4  &lt 7 SPACE                                         &lt 7 ENTER  &mo 5  &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -165,7 +165,7 @@
         };
 
         FN_MAC {
-            display-name = "Fn MAC";
+            display-name = "FN_MAC";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &to 0          &tog 3      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp C_PREV  &kp C_PP    &kp C_NEXT   &kp PRINTSCREEN  &lang_switch_mac
