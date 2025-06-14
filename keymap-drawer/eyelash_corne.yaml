@@ -47,7 +47,7 @@ layers:
   - COLEMAK
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - COLEMAK
+  - MAC COLEMAK
   - {t: '$$mdi:backspace$$', type: backspace}
   MAC QWERTY:
   - $$mdi:keyboard-tab$$
@@ -96,9 +96,58 @@ layers:
   - COLEMAK
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - COLEMAK
+  - MAC COLEMAK
   - {t: '$$mdi:backspace$$', type: backspace}
   COLEMAK:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - $$mdi:arrow-up-bold$$
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
+  - $$mdi:apple-keyboard-option$$
+  - '&td0'
+  - A
+  - R
+  - S
+  - T
+  - D
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - H
+  - N
+  - E
+  - I
+  - O
+  - {t: '-', s: _}
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - K
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:keyboard-esc$$
+  - LGUI
+  - {t: COLEMAK, type: held}
+  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
+  - MAC COLEMAK
+  - {t: '$$mdi:backspace$$', type: backspace}
+  MAC COLEMAK:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -142,10 +191,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
-  - {t: COLEMAK, type: held}
+  - {t: COLEMAK, type: held alternate}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - {t: COLEMAK, type: held}
+  - {t: MAC COLEMAK, type: held}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
