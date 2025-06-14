@@ -194,7 +194,7 @@ layers:
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn MAC}
   - {t: '$$mdi:keyboard-return$$', h: Fn MAC}
-  - Fn MAC
+  - Fn
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -309,7 +309,7 @@ layers:
   - F10
   - F11
   - {t: MAC QWERTY, h: toggle}
-  - {t: MAC CMK, h: toggle}
+  - {t: CMK, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -341,7 +341,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn MAC:
   - '&studio_unlock'
@@ -358,7 +358,7 @@ layers:
   - F10
   - F11
   - {t: QWERTY, h: toggle}
-  - {t: NUMBER, h: toggle}
+  - {t: MAC CMK, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -390,5 +390,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held alternate}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
