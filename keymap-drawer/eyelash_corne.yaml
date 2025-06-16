@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - $$mdi:play-pause$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -84,7 +84,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - $$mdi:play-pause$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -133,7 +133,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - $$mdi:play-pause$$
   - $$mdi:arrow-down-bold$$
   - K
   - M
@@ -182,7 +182,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - $$mdi:play-pause$$
   - $$mdi:arrow-down-bold$$
   - K
   - M
