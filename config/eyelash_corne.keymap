@@ -85,7 +85,7 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp RALT
 &td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp RIGHT_SHIFT
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp C_PP              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                          &kp LGUI   &mo 4  &lt 6 SPACE                                               &lt 6 ENTER  &mo 5  &kp BSPC
             >;
 
@@ -97,7 +97,7 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp RALT
 &td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp RIGHT_SHIFT
-&kp LGUI  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+&kp LGUI  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp C_PP              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                          &kp LCTRL   &mo 4  &lt 7 SPACE                                               &lt 7 ENTER  &mo 5  &kp BSPC
             >;
 
@@ -109,7 +109,7 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F  &kp P  &kp G                         &kp UP               &kp J  &kp L  &kp U     &kp Y     &kp SEMI     &kp RALT
 &td0       &kp A    &kp R      &kp S    &kp T  &kp D              &kp LEFT  &kp ENTER &kp RIGHT  &kp H  &kp N  &kp E     &kp I     &kp O     &kp MINUS
-&kp LCTRL  &kp Z &kp X      &kp C    &kp V  &kp B     &kp SPACE         &kp DOWN             &kp K  &kp M  &kp COMMA     &kp DOT     &kp FSLH     &kp ESC
+&kp LCTRL  &kp Z &kp X      &kp C    &kp V  &kp B     &kp C_PP         &kp DOWN             &kp K  &kp M  &kp COMMA     &kp DOT     &kp FSLH     &kp ESC
                         &kp LGUI  &mo 4  &lt 6 SPACE                                         &lt 6 ENTER  &mo 5  &kp BSPC
             >;
 
@@ -121,7 +121,7 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F  &kp P  &kp G                         &kp UP               &kp J  &kp L  &kp U     &kp Y     &kp SEMI     &kp RALT
 &td0       &kp A    &kp R      &kp S    &kp T  &kp D              &kp LEFT  &kp ENTER &kp RIGHT  &kp H  &kp N  &kp E     &kp I     &kp O     &kp MINUS
-&kp LGUI  &kp Z &kp X      &kp C    &kp V  &kp B     &kp SPACE         &kp DOWN             &kp K  &kp M  &kp COMMA     &kp DOT     &kp FSLH     &kp ESC
+&kp LGUI  &kp Z &kp X      &kp C    &kp V  &kp B     &kp C_PP         &kp DOWN             &kp K  &kp M  &kp COMMA     &kp DOT     &kp FSLH     &kp ESC
                         &kp LCTRL  &mo 4  &lt 7 SPACE                                         &lt 7 ENTER  &mo 5  &kp BSPC
             >;
 
