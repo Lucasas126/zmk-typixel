@@ -210,7 +210,7 @@ layers:
   - O
   - P
   - $$mdi:apple-keyboard-option$$
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
